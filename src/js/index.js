@@ -4,6 +4,6 @@ const electronVersion = document.querySelector('#electron-version')
 const chromiumVersion = document.querySelector('#chromium-version')
 const nodeVersion = document.querySelector('#node-version')
 
-electronVersion.textContent = process.versions.electron
-chromiumVersion.textContent = process.versions.chrome
-nodeVersion.textContent = process.versions.node
+electronVersion.textContent = versions.electron
+chromiumVersion.textContent = versions.chrome
+nodeVersion.textContent = versions.node
